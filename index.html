@@ -4,68 +4,90 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Rubbinho Grill · Espetinho e Burguers</title>
-<meta name="description" content="Cardápio do Rubbinho Grill: espetinhos a R$13 e hambúrgueres artesanais. Peça pelo WhatsApp.">
-<meta name="theme-color" content="#17110d">
+<meta name="description" content="Cardápio do Rubbinho Grill: espetinhos a R$13, jantinha a R$15 e hambúrgueres artesanais. Peça pelo WhatsApp.">
+<meta name="theme-color" content="#fdf3e0">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Titan+One&family=Yellowtail&family=Work+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><symbol id="espeto" viewBox="0 0 52 20"><line x1="0" y1="10" x2="52" y2="10" stroke="#d9a441" stroke-width="2"/><rect x="10" y="3" width="10" height="14" rx="3" fill="#a4212a"/><rect x="22" y="3" width="10" height="14" rx="3" fill="#d9a441"/><rect x="34" y="3" width="10" height="14" rx="3" fill="#a4212a"/></symbol></svg>
 <header class="topbar">
   <a href="#topo"><img src="img/logo.webp" alt="Rubbinho Grill" width="900" height="507"></a>
-  <nav class="topnav"><a href="#espetinhos">Espetinhos</a><a href="#burguers">Burguers</a></nav>
   <a class="btn btn-red btn-sm" href="https://wa.me/5561985905050?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20no%20Rubbinho%20Grill" target="_blank" rel="noopener">Pedir</a>
 </header>
 <main id="topo">
-  <div class="stripes"></div>
   <section class="hero wrap">
-    <p class="kicker">RUBBINHO GRILL</p>
-    <h1 class="display hero-title">Espetinho<br><span class="amp">&amp;</span> Burguers</h1>
-    <p class="hero-sub">Na brasa, todo fim de tarde. No estacionamento em frente ao Balaio Caipira.</p>
+    <div class="hero-art">
+      <div class="stripes-band" aria-hidden="true"></div>
+      <h1 class="display hero-title">Espetinho<span class="l2"><span class="amp">&amp;</span> Burguer</span></h1>
+      <img class="hero-leque" src="img/espetos-leque.webp" alt="Leque com seis espetinhos grelhados" width="900" height="1030">
+      <img class="hero-burger" src="img/burger-simples.webp" alt="Hambúrguer artesanal com cheddar" width="700" height="541">
+      <span class="enjoy script" aria-hidden="true">Enjoy!</span>
+    </div>
+    <p class="hero-sub">Espetinho na brasa e hambúrguer artesanal, todo fim de tarde. No estacionamento em frente ao Balaio Caipira, Águas Claras.</p>
     <div class="hero-actions">
       <a class="btn btn-red" href="https://wa.me/5561985905050?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20no%20Rubbinho%20Grill" target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
-      <a class="btn btn-outline" href="https://maps.app.goo.gl/5s3kuVMgvNhM9VF77" target="_blank" rel="noopener">Como chegar</a>
+      <a class="btn btn-cream" href="https://maps.app.goo.gl/5s3kuVMgvNhM9VF77" target="_blank" rel="noopener">Como chegar</a>
+    </div>
+    <div class="bento">
+      <a class="card card-yellow card-wide reveal" href="#jantinha" style="text-decoration:none">
+        <h2 class="display">Jantinha</h2>
+        <p>Prato completo com 1 espeto à sua escolha</p>
+        <span class="price-tag"><small>R$</small><b>15</b></span>
+        <img class="bleed" src="img/jantinha.webp" alt="" width="1000" height="613" style="width:62%;right:-6%;top:50%;transform:translateY(-50%) rotate(-6deg)">
+      </a>
+      <a class="card card-ink reveal" href="#espetinhos" style="text-decoration:none">
+        <h2 class="display">Espetos</h2>
+        <p>6 sabores na brasa</p>
+        <span class="price-tag"><small>R$</small><b>13</b></span>
+      </a>
+      <a class="card card-red reveal" href="#burguers" style="text-decoration:none">
+        <h2 class="display">Burguers</h2>
+        <p>Simples, duplo e triplo</p>
+        <span class="price-tag"><small>a partir de R$</small><b>15</b></span>
+      </a>
     </div>
   </section>
   <section class="section wrap" id="espetinhos">
-    <div class="section-head"><h2 class="display section-title">Espetinhos</h2><div class="seal" aria-label="13 reais"><small>R$</small><b>13</b></div></div>
-    <p class="section-sub">Todos os espetinhos saem a R$13.</p>
-    <div class="grid-espetos">
-      <article class="espeto reveal"><svg aria-hidden="true"><use href="#espeto"/></svg><h3>Alcatra</h3></article>
-      <article class="espeto reveal"><svg aria-hidden="true"><use href="#espeto"/></svg><h3>Contrafilé</h3></article>
-      <article class="espeto reveal"><svg aria-hidden="true"><use href="#espeto"/></svg><h3>Kafta</h3></article>
-      <article class="espeto reveal"><svg aria-hidden="true"><use href="#espeto"/></svg><h3>Coração</h3></article>
-      <article class="espeto reveal"><svg aria-hidden="true"><use href="#espeto"/></svg><h3>Queijo coalho</h3></article>
-      <article class="espeto reveal"><svg aria-hidden="true"><use href="#espeto"/></svg><h3>Linguiça</h3></article>
+    <div class="titulo-com-selo"><h2 class="display section-title">Espetos</h2><div class="selo" aria-label="13 reais cada"><small>CADA</small><b>R$13</b></div></div>
+    <p class="section-sub">Na brasa, no ponto. Todos os espetos saem a R$13.</p>
+    <div class="espetos">
+      <ul class="lista">
+        <li><span class="nome">Alcatra</span><span class="preco">13</span></li>
+        <li><span class="nome">Contrafilé</span><span class="preco">13</span></li>
+        <li><span class="nome">Kafta</span><span class="preco">13</span></li>
+        <li><span class="nome">Coração</span><span class="preco">13</span></li>
+        <li><span class="nome">Queijo coalho</span><span class="preco">13</span></li>
+        <li><span class="nome">Linguiça</span><span class="preco">13</span></li>
+      </ul>
+      <img class="espetos-img" src="img/espetos-leque.webp" alt="Alcatra, contrafilé, kafta, coração, queijo coalho e linguiça em espetos" width="900" height="1030" loading="lazy">
     </div>
   </section>
-  <div class="stripes"></div>
+  <section class="section wrap" id="jantinha">
+    <h2 class="display section-title">Jantinha</h2>
+    <div class="jantinha-card reveal">
+      <img src="img/jantinha.webp" alt="Jantinha com arroz, feijão tropeiro, mandioca na manteiga, vinagrete e espeto" width="1000" height="613" loading="lazy">
+      <div class="titulo-com-selo"><h3 class="display" style="font-size:1.9rem">Prato completo</h3><div class="selo" aria-label="15 reais"><small>JANTINHA</small><b>R$15</b></div></div>
+      <ul><li>Arroz</li><li>Feijão tropeiro</li><li>Mandioca na manteiga</li><li>Vinagrete</li><li><strong>+ 1 espeto à sua escolha</strong></li></ul>
+    </div>
+  </section>
   <section class="section wrap" id="burguers">
     <h2 class="display section-title">Burguers</h2>
-    <p class="section-sub">Pão, hambúrguer artesanal, queijo à sua escolha e maionese da casa.</p>
-    <div class="cheese"><div class="cheese-label">Escolha o queijo</div><div class="chips"><span class="chip">Prato</span><span class="chip">Cheddar</span><span class="chip">Muçarela</span></div></div>
-    <div class="burgers">
-      <article class="burger reveal">
-        <svg viewBox="0 0 40 27" aria-hidden="true"><path d="M2 10 Q20 -2 38 10 Z" fill="#f0cf8f"/><rect x="1" y="11" width="38" height="3" fill="#d9a441"/><rect x="2" y="14" width="36" height="6" rx="2" fill="#5a2e1a"/><rect x="2" y="21" width="36" height="6" rx="3" fill="#f0cf8f"/></svg>
-        <div><h3 class="display">Simples</h3><p>1 hambúrguer artesanal + 1 queijo</p></div>
-        <div class="price"><small>R$</small><b>15</b></div>
-      </article>
-      <article class="burger reveal">
-        <svg viewBox="0 0 40 37" aria-hidden="true"><path d="M2 10 Q20 -2 38 10 Z" fill="#f0cf8f"/><rect x="1" y="11" width="38" height="3" fill="#d9a441"/><rect x="2" y="14" width="36" height="6" rx="2" fill="#5a2e1a"/><rect x="1" y="21" width="38" height="3" fill="#d9a441"/><rect x="2" y="24" width="36" height="6" rx="2" fill="#5a2e1a"/><rect x="2" y="31" width="36" height="6" rx="3" fill="#f0cf8f"/></svg>
-        <div><h3 class="display">Duplo</h3><p>2 hambúrgueres artesanais + 2 queijos</p></div>
-        <div class="price"><small>R$</small><b>25</b></div>
-      </article>
-      <article class="burger featured reveal">
-        <span class="tag">O MAIS PARRUDO</span>
-        <svg viewBox="0 0 40 47" aria-hidden="true"><path d="M2 10 Q20 -2 38 10 Z" fill="#f0cf8f"/><rect x="1" y="11" width="38" height="3" fill="#d9a441"/><rect x="2" y="14" width="36" height="6" rx="2" fill="#5a2e1a"/><rect x="1" y="21" width="38" height="3" fill="#d9a441"/><rect x="2" y="24" width="36" height="6" rx="2" fill="#5a2e1a"/><rect x="1" y="31" width="38" height="3" fill="#d9a441"/><rect x="2" y="34" width="36" height="6" rx="2" fill="#5a2e1a"/><rect x="2" y="41" width="36" height="6" rx="3" fill="#f0cf8f"/></svg>
-        <div><h3 class="display">Triplo</h3><p>3 hambúrgueres artesanais + 3 queijos</p></div>
-        <div class="price"><small>R$</small><b>35</b></div>
-      </article>
+    <p class="section-sub">Pão, hambúrguer artesanal, queijo e maionese da casa.</p>
+    <img class="burgers-img reveal" src="img/burgers-trio.webp" alt="Hambúrgueres duplo, simples e triplo" width="1400" height="683" loading="lazy">
+    <div class="burgers-precos">
+      <div class="bp"><h3 class="display">Duplo</h3><small>2 carnes + 2 queijos</small><b>R$25</b></div>
+      <div class="bp destaque"><h3 class="display">Simples</h3><small>1 carne + 1 queijo</small><b>R$15</b></div>
+      <div class="bp"><h3 class="display">Triplo</h3><small>3 carnes + 3 queijos</small><b>R$35</b></div>
     </div>
+    <div class="queijos">Escolha o queijo: <span class="chip">Prato</span><span class="chip">Cheddar</span><span class="chip">Muçarela</span></div>
   </section>
-  <section class="cta"><h2 class="display">Bateu a fome?</h2><a class="btn btn-dark" href="https://wa.me/5561985905050?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20no%20Rubbinho%20Grill" target="_blank" rel="noopener">Pedir pelo WhatsApp</a></section>
+  <section class="cta">
+    <span class="script">Enjoy!</span>
+    <h2 class="display">Bateu a fome?</h2>
+    <a class="btn btn-yellow" href="https://wa.me/5561985905050?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20no%20Rubbinho%20Grill" target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+  </section>
 </main>
 <footer class="footer">
   <img src="img/logo.webp" alt="Rubbinho Grill" width="900" height="507" loading="lazy">
@@ -73,9 +95,9 @@
   <div>Estacionamento em frente ao Balaio Caipira · <a href="https://maps.app.goo.gl/5s3kuVMgvNhM9VF77" target="_blank" rel="noopener">Ver no mapa</a></div>
   <div><a href="https://www.instagram.com/rubbinhogrill_janta/" target="_blank" rel="noopener">@rubbinhogrill_janta</a> · <a href="https://wa.me/5561985905050?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20no%20Rubbinho%20Grill" target="_blank" rel="noopener">61 9 8590-5050</a></div>
 </footer>
-<a class="btn btn-red fab" href="https://wa.me/5561985905050?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20no%20Rubbinho%20Grill" target="_blank" rel="noopener" aria-label="Pedir pelo WhatsApp">💬 Pedir</a>
+<a class="btn btn-red fab" href="https://wa.me/5561985905050?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20no%20Rubbinho%20Grill" target="_blank" rel="noopener" aria-label="Pedir pelo WhatsApp">Pedir</a>
 <script>
-(function(){var els=document.querySelectorAll('.reveal');if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.15});els.forEach(function(el){io.observe(el);});}else{els.forEach(function(el){el.classList.add('in');});}})();
+(function(){var els=document.querySelectorAll('.reveal');if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});els.forEach(function(el){io.observe(el);});}else{els.forEach(function(el){el.classList.add('in');});}})();
 </script>
 </body>
 </html>
